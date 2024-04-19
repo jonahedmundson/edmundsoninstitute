@@ -353,8 +353,8 @@ COLOR SCHEME
    }
    
    #section-2 .med-body-balance p {
-    grid-row: span 1;
-    grid-column: span 2;
+    /* grid-row: span 1;
+    grid-column: span 2; */
     padding: 0%;
    }
 
