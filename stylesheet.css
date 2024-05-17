@@ -87,7 +87,7 @@ COLOR SCHEME
     float: left;
     position: fixed;
     background-color: #A27D95;
-    height: 20vh;
+    height: 14svh;
     width: 100vw; 
     font-family: 'oxfordregular'; 
     align-items: center;
@@ -101,7 +101,7 @@ COLOR SCHEME
    .header-grid {
     display: grid;
     grid-template-columns: 1fr 1fr; 
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     position: relative;
     height: 100%;
     justify-items: center;
@@ -125,6 +125,29 @@ COLOR SCHEME
         align-items: center;
         justify-items: center;
         width: fit-content;
+    }
+
+    .below-header {
+        display: grid;
+        grid-template-columns: 1fr 5fr 1fr; 
+        grid-template-rows: 100%;
+        align-items: center;
+        justify-items: center;
+        grid-gap: 1vw;
+        color: inherit; /* blue colors for links too */
+        text-decoration: inherit; /* no underline */
+        grid-column: span 2;
+        font-family: Arial;
+        font-weight: bold;
+    }
+
+    .below-header-item {
+        display: flex;
+        height: 100%;
+        align-items: center;
+        justify-items: center;
+        width: fit-content;
+        font-family: Arial;
     }
 
     .menu-option {
