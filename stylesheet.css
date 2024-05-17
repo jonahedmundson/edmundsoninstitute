@@ -165,7 +165,9 @@ COLOR SCHEME
 
 
    section {
+    height: 100vh;
     height: 100svh;
+    height: -webkit-fill-available;    
     scroll-snap-align: start;
     width: 100vw;
     /* font-family: Arial Black;
@@ -174,7 +176,7 @@ COLOR SCHEME
     font-family: 'oxfordregular';
     display: grid;
     grid-template-columns: minmax(5px, 1fr) minmax(100px, 18fr) minmax(5px, 1fr); 
-    grid-template-rows: 1fr 3fr 1fr;
+    grid-template-rows: 2fr 4fr 1fr;
    }
 
    .med-body {
@@ -189,7 +191,7 @@ COLOR SCHEME
     display: grid;
     grid-template-columns: 100%; 
     grid-template-rows: 1fr 6fr;
-    padding-top: 5vh;
+    /* padding-top: 5vh; */
    }
 
    .med-body h1 {
