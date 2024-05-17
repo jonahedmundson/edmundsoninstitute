@@ -114,7 +114,7 @@ COLOR SCHEME
     }
 
     .header-middle-item {
-        display: flex;
+        display: grid;
         height: 100%;
         align-items: center;
         justify-items: center;
@@ -268,7 +268,7 @@ COLOR SCHEME
    } */
    
    #section-0.med-body {
-    grid-gap: 2vh;
+    grid-gap: 2svh;
    }
    
    #section-1 .med-body-balance {
@@ -279,7 +279,7 @@ COLOR SCHEME
 
    #section-1 .med-body-balance p {
     text-align: justify;
-    font-size: 2vh;
+    font-size: 2svh;
     line-height: 150%;
    }
 
