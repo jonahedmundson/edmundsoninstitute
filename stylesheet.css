@@ -67,7 +67,9 @@ COLOR SCHEME
       width: 100%;
       scroll-snap-type: y mandatory;
         overflow-y: scroll;
+        height: 100vh;
         height: 100svh;
+        height: -webkit-fill-available;
     }
 
     h1 {
@@ -192,13 +194,15 @@ COLOR SCHEME
 
    .med-body h1 {
     font-size: 9vw;
-    align-self: end;
+    align-self: center;
+
    }
 
    .med-body-balance {
     display: grid;
     grid-template-columns: 100%; 
     grid-template-rows: 100%;
+    height: fit-content;
    }
 
    .med-body-balance p {
@@ -316,6 +320,7 @@ COLOR SCHEME
     font-size: 2vh;
     line-height: 150%;
     align-self: center;
+    margin: 0px;
    }
 
    #section-2 .med-body-balance form {
