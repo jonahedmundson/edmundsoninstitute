@@ -165,11 +165,9 @@ COLOR SCHEME
 
 
    section {
-    height: 85vh;
-    height: 85svh;
-    padding-top: 15vh;
-    padding-top: 15svh;
-    /* height: -webkit-fill-available;     */
+    height: 100vh;
+    height: 100svh;
+    height: -webkit-fill-available;    
     scroll-snap-align: start;
     width: 100vw;
     /* font-family: Arial Black;
