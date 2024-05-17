@@ -75,12 +75,6 @@ COLOR SCHEME
     line-height: 100%;
     margin: 0px;
     }
-  
-   .desktop-content {
-    scroll-snap-type: y mandatory;
-    overflow-y: scroll;
-    height: 100vh;
-   }
 
    .header {
     display: block;
