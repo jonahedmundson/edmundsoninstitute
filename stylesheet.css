@@ -81,7 +81,7 @@ COLOR SCHEME
     float: left;
     position: fixed;
     background-color: #A27D95;
-    height: 14svh;
+    height: 12svh;
     width: 100vw; 
     font-family: 'oxfordregular'; 
     align-items: center;
@@ -122,14 +122,15 @@ COLOR SCHEME
     }
 
     .below-header {
+        all: unset;
         display: grid;
         grid-template-columns: 1fr 5fr 1fr; 
         grid-template-rows: 100%;
         align-items: center;
         justify-items: center;
         grid-gap: 1vw;
-        color: inherit; /* blue colors for links too */
-        text-decoration: inherit; /* no underline */
+        /* color: inherit; /* blue colors for links too 
+        text-decoration: inherit; no underline */
         grid-column: span 2;
         font-family: Arial;
         font-weight: bold;
