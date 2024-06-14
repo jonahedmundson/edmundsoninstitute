@@ -12,6 +12,7 @@
 }
 
 html,body,.mobile-content,.desktop-content {
+    --scroll-behavior: smooth!important;
     scroll-behavior: smooth !important;
 }
 
@@ -272,23 +273,23 @@ COLOR SCHEME
     background-color: black;
    } */
    
-   #section-0.med-body {
+   #section-0p.med-body {
     grid-gap: 2svh;
    }
    
-   #section-1 .med-body-balance {
+   #section-1p .med-body-balance {
     display: grid;
     grid-template-columns: 50% 50%; 
     grid-template-rows: 35% 65%;
    }
 
-   #section-1 .med-body-balance p {
+   #section-1p .med-body-balance p {
     text-align: justify;
     font-size: 2svh;
     line-height: 150%;
    }
 
-   #section-1 .med-body-balance img {
+   #section-1p .med-body-balance img {
     justify-self: normal;
     border-radius: 10px;
     -webkit-box-shadow:0px 0px 50px 20px rgba(246,109,200,0.15);
@@ -296,26 +297,26 @@ COLOR SCHEME
     box-shadow: 0px 0px 50px 20px rgba(246,109,200,0.15);
    }
 
-   #section-1 .med-body-balance a {
+   #section-1p .med-body-balance a {
     text-decoration: none;
     color: #fff;
    }
 
-   #section-2 .med-body-balance {
+   #section-2p .med-body-balance {
     display: grid;
     grid-template-columns: 50% 50%; 
     grid-template-rows: 40% 40% 20%;
     justify-content: left;
    }
    
-   #section-2 .med-body-balance p {
+   #section-2p .med-body-balance p {
     /* grid-row: span 1;
     grid-column: span 2; */
     padding: 0%;
     text-align: left;
    }
 
-   #section-2 .med-body-balance ul {
+   #section-2p .med-body-balance ul {
     padding: 10%;
     font-family: Arial;
     font-size: 2vh;
@@ -324,18 +325,18 @@ COLOR SCHEME
     margin: 0px;
    }
 
-   #section-2 .med-body-balance form {
+   #section-2p .med-body-balance form {
     all: unset;
     justify-self: end;
 }
 
-   #section-3 .med-body-balance {
+   #section-3p .med-body-balance {
     display: grid;
     grid-template-columns: 100%; 
     grid-template-rows: 60% 40%;
    }
 
-   #section-3 .med-body-balance img {
+   #section-3p .med-body-balance img {
     justify-self: end;
     max-height: 30vh;
     max-width: 25vw;
@@ -346,18 +347,18 @@ COLOR SCHEME
     grid-row: span 2; */
    }
 
-   #section-3 .med-body-balance p {
+   #section-3p .med-body-balance p {
     padding-left: 0px;
     text-align: justify;
    }
 
-   #section-3 .courses {
+   #section-3p .courses {
     width: 100%;
     height: fit-content;
     margin: auto;
    }
    
-   #section-3 .course {
+   #section-3p .course {
     width: 90%;
     border: 1px solid #A27D95;
     border-radius: 10px;
@@ -373,19 +374,19 @@ COLOR SCHEME
     box-shadow: 0px 0px 50px 20px rgba(246,109,200,0.15);
    }
 
-   #section-3 .course-name {
+   #section-3p .course-name {
     display: inline-block; 
    }
 
-   #section-3 .course-length {
+   #section-3p .course-length {
     float: right;
    }
 
-   #section-3 .med-body-balance a {
+   #section-3p .med-body-balance a {
     color: #F66DC9;
    }
 
-   #section-4 .med-body-balance {
+   #section-4p .med-body-balance {
     display: grid;
     grid-template-columns: 100%; 
     grid-template-rows: 40% 40% 20%;
@@ -393,23 +394,23 @@ COLOR SCHEME
     text-align: justify;
    }
 
-   #section-4 .med-body-balance img {
+   #section-4p .med-body-balance img {
     justify-self: center;
     max-height: 40vh;
     max-width: 40vw;
    }
 
-   #section-4 .med-body-balance form {
+   #section-4p .med-body-balance form {
     all: unset;
     align-self: normal;
     justify-self: end;
     }
 
-   #section-4 .med-body-balance a {
+   #section-4p .med-body-balance a {
     color: #F66DC9;
    }
 
-   #bottom-section {
+   #bottom-sectionp {
     background-image: url(./assets/backgroundop20.png); 
     background-size: cover;
     background-repeat: no-repeat;
