@@ -203,7 +203,7 @@ COLOR SCHEME
    .med-body-balance {
     display: grid;
     grid-template-columns: 100%; 
-    grid-template-rows: 100%;
+    grid-template-rows: 30% 70%;
     height: fit-content;
    }
 
@@ -383,6 +383,10 @@ COLOR SCHEME
    }
 
    #section-3p .med-body-balance a {
+    color: #F66DC9;
+   }
+
+   #section-4p .med-body-balance a {
     color: #F66DC9;
    }
 
