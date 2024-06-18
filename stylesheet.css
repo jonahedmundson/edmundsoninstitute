@@ -386,7 +386,7 @@ COLOR SCHEME
     color: #F66DC9;
    }
 
-   #section-4p .med-body-balance {
+   #section-0p .med-body-balance {
     display: grid;
     grid-template-columns: 100%; 
     grid-template-rows: 40% 40% 20%;
@@ -394,19 +394,19 @@ COLOR SCHEME
     text-align: justify;
    }
 
-   #section-4p .med-body-balance img {
+   #section-0p .med-body-balance img {
     justify-self: center;
     max-height: 40vh;
     max-width: 40vw;
    }
 
-   #section-4p .med-body-balance form {
+   #section-0p .med-body-balance form {
     all: unset;
     align-self: normal;
-    justify-self: end;
+    justify-self: center;
     }
 
-   #section-4p .med-body-balance a {
+   #section-0p .med-body-balance a {
     color: #F66DC9;
    }
 
@@ -604,7 +604,7 @@ COLOR SCHEME
 
    .med-body-balance {
     display: grid;
-    grid-template-columns: 40% 60%; 
+    grid-template-columns: 50% 50%; 
     grid-template-rows: 100%;
    }
 
@@ -678,6 +678,13 @@ COLOR SCHEME
    /* #section-0 {
     background-color: black;
    } */
+
+   #section-4 p {
+    text-align: left; 
+    align-self: start;
+    margin-right: 10%;
+    padding-left: 0%;
+   }
    
    #section-1 .med-body-balance {
     display: grid;
@@ -787,23 +794,30 @@ COLOR SCHEME
     color: #F66DC9;
    }
 
-   #section-4 .med-body-balance {
+   #section-0 .med-body-balance {
     display: grid;
-    grid-template-columns: 40% 60%; 
+    grid-template-columns: 50% 50%; 
     grid-template-rows: 80% 20%;
     justify-items: normal;
    }
 
-   #section-4 .med-body-balance img {
+   #section-0 .med-body-balance img {
     justify-self: unset;
     max-height: 40vh;
     max-width: 30vw;
+    align-self: center;
+    justify-self: center;
    }
 
-   #section-4 .med-body-balance form {
+   #section-0 .med-body-balance form {
     all: unset;
-    justify-self: end;
+    justify-self: start;
+    padding-left: 5%;
     }
+
+   #section-0 .med-body-balance a {
+    color: #F66DC9;
+   }
 
    #section-4 .med-body-balance a {
     color: #F66DC9;
