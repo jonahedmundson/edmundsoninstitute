@@ -393,7 +393,7 @@ COLOR SCHEME
    #section-0p .med-body-balance {
     display: grid;
     grid-template-columns: 100%; 
-    grid-template-rows: 40% 40% 20%;
+    grid-template-rows: 80% 20%;
     justify-items: normal;
     text-align: justify;
    }
