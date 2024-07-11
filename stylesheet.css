@@ -840,7 +840,7 @@ COLOR SCHEME
     height: 100vh;
     display: grid;
     grid-template-columns: minmax(20px, 1fr) minmax(500px, 3fr) minmax(200px, 4fr); 
-    grid-template-rows: 1fr 4fr 1fr;
+    grid-template-rows: 1fr 4fr 3fr;
    }
 
    .course-info-main {
@@ -870,6 +870,13 @@ COLOR SCHEME
     font-family: Arial;
     font-size: 2vh;
     line-height: 200%;
+   }
+
+   .YT {
+    grid-row-start: 3;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 2; 
    }
   
   }
