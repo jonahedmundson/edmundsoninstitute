@@ -872,7 +872,7 @@ COLOR SCHEME
     line-height: 200%;
    }
 
-   .YT {
+    .embed {
     grid-row-start: 3;
     grid-row-end: 3;
     grid-column-start: 2;
