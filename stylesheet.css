@@ -155,7 +155,12 @@ p {
 
 
 @media only screen and (max-width: 1200px) {
- .box, .box-text {
+body { 
+    width: 95vw; 
+    margin: 0%;
+} 
+
+.box, .box-text {
     grid-column: span 1 !important;
     grid-row: span 1 !important;
  }
