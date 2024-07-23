@@ -112,6 +112,8 @@ p {
     grid-column: span 3;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: space-around;
 }
 
 .social-button {
@@ -166,8 +168,9 @@ body {
  }
 
  .social-button {
-    width: fit-content;
+    /* width: fit-content; */
     font-size: medium;
+    margin: 10px;
  }
 
  h2 {
