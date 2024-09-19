@@ -48,7 +48,7 @@ a:link, a:visited, a:hover, a:active {
     text-decoration: none; 
 }
 
-.box, body > img { 
+.box, body > img, .painting { 
     margin: 10px;
     display: flex; 
     justify-content: center; 
@@ -56,6 +56,11 @@ a:link, a:visited, a:hover, a:active {
     background-color: #5b2433;
     border-radius: 12px;
     padding: 20px;
+    transition: transform 0.3s;
+}
+
+.painting:hover {
+    transform: scale(1.05);
 }
 
 .box-text {
@@ -147,7 +152,7 @@ p {
     transition: 0.3s;
     background-size: 200% auto;
     border-radius: 10px;
-    margin: 5px;
+    margin-top: 15px;
     justify-self: end;
 }
 
