@@ -27,15 +27,13 @@ body {
     background-color: #14101b;
     background-image: url('./assets/backgroundop20.png');
     display: grid;
-    /* grid-template-columns: repeat(auto-fit, minmax(max-content, 1fr)); */
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: repeat(auto-fit, minmax(max-content, 1fr));
     justify-items: stretch;
-    align-items: flex-start;
-    align-content: start;
+    align-items: stretch;
     column-gap: 10px;
     width: 90vw;
     max-width: 90vw;
-    /* height: 90vh; */
+    height: 90vh;
     margin: auto;
     color: #fff;
     font-family: 'atkinsonregular';
@@ -63,20 +61,12 @@ a:link, a:visited, a:hover, a:active {
     background-color: #5b2433;
     border-radius: 12px;
     padding: 20px;
-    height: fit-content;
 }
 
 h2 {
     font-family: 'oxfordregular';
     font-weight: bolder;
     font-size: max(20px, 3vw); 
-    margin: 0px;
-}
-
-h3 {
-    /* font-family: 'oxfordregular'; */
-    font-weight: bolder;
-    font-size: max(12px, 2vw); 
     margin: 0px;
 }
 
@@ -111,17 +101,12 @@ p {
     height: 90%;
 }
 
-/* .about {
-    grid-row: span 3;
-} */
+.about {
+    grid-row: span 2;
+}
 
 .hero {
     grid-column: span 2;
-}
-
-.courses {
-    grid-column: span 2;
-    grid-row: span 3;
 }
 
 .socials {
@@ -147,8 +132,6 @@ p {
     transition: 0.3s;
     background-size: 200% auto;
     border-radius: 10px;
-    margin: 5px;
-    justify-self: end;
 }
 
 .social-button:hover {
@@ -156,48 +139,13 @@ p {
     transform: scale(1.1);
 }
 
-.indv-course { 
-    width: 95%;
-    height: fit-content;
-    margin: auto;
-    margin-top: 20px;
-    display: flex;
-    justify-content: start;
+.tutor {
+    grid-column: span 1;
 }
-
-.indv-course img {
-    border-radius: 12px;
-    height: 150px;
-    transition: transform 0.3s;
-}
-
-.indv-course img:hover {
-    transform: scale(1.1);
-}
-
-.indv-course h3 {
-    margin-left: 20px;
-}
-
-.indv-course p {
-    margin-top: 10px;
-}
-
 
 .tutor-div {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.tutor-item {
-    width: fit-content;
-    white-space: nowrap;
-    margin: 5px;
-}
-
-.tutor-item p {
-    margin: 0;
 }
 
 
@@ -209,14 +157,13 @@ p {
 
 
 
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1200px) {
 body { 
     width: 95vw; 
     margin: auto;
-    grid-template-columns: 100%;
 } 
 
-.box, .box-text, .tutor, .courses, .about {
+.box, .box-text {
     grid-column: span 1 !important;
     grid-row: span 1 !important;
  }
