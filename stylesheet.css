@@ -105,7 +105,7 @@ p {
     align-items: center;
     font-family: 'oxfordregular';
     color: #fff;
-    font-size: max(40px, 5vw); 
+    font-size: max(50px, 4.5vw); 
     font-weight: bolder;
     height: 100%;
     margin: 10px;
@@ -212,9 +212,20 @@ p {
 
 
 
+@media only screen and (max-width: 600px) {
+.header { 
+    flex-direction: column;
+    height: auto !important;
+ }
+
+ .header-title {
+    margin: 0px !important;
+ }
+}
 
 
-@media only screen and (max-width: 1400px) {
+
+@media only screen and (max-width: 1000px) {
 body { 
     width: 95vw; 
     margin: auto;
@@ -224,14 +235,6 @@ body {
 .box, .box-text, .tutor, .courses, .about {
     grid-column: span 1 !important;
     grid-row: span 1 !important;
- }
-
- .header { 
-    flex-direction: column;
- }
-
- .header-title {
-    margin: 0px !important;
  }
 
  .box > img {
